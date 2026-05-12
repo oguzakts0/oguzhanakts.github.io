@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oğuzhan Aktaş – CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #e8e8e8;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .cv {
+      width: 794px;
+      background: #fff;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    }
+
+    /* ── TOP HEADER ── */
+    .cv-header {
+      display: flex;
+      align-items: center;
+      padding: 32px 40px 28px;
+      gap: 28px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .cv-header .photo-placeholder {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: #bbb;
+      flex-shrink: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cv-header .photo-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .cv-header-info h1 {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #1a1a1a;
+      text-transform: uppercase;
+    }
+
+    .cv-header-info .subtitle {
+      font-size: 13.5px;
+      font-weight: 400;
+      color: #555;
+      letter-spacing: 0.05em;
+      margin-top: 4px;
+      text-transform: uppercase;
+    }
+
+    .cv-header-contacts {
+      display: flex;
+      gap: 28px;
+      margin-top: 12px;
+    }
+
+    .cv-header-contacts .contact {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 13px;
+      color: #333;
+    }
+
+    .cv-header-contacts .contact svg {
+      width: 16px;
+      height: 16px;
+      fill: #444;
+      flex-shrink: 0;
+    }
+
+    /* ── BODY ── */
+    .cv-body {
+      display: grid;
+      grid-template-columns: 210px 1fr;
+    }
+
+    /* ── LEFT COLUMN ── */
+    .col-left {
+      padding: 32px 24px;
+      border-right: 1px solid #e0e0e0;
+    }
+
+    .left-section {
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .section-divider {
+      border: none;
+      border-top: 1.5px solid #c8c8c8;
+      margin-bottom: 13px;
+    }
+
+    .bullet-list {
+      list-style: none;
+    }
+
+    .bullet-list li {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 13px;
+      color: #333;
+      margin-bottom: 9px;
+    }
+
+    .bullet-list li::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #555;
+      flex-shrink: 0;
+    }
+
+    .lang-row {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 13px;
+      color: #333;
+      margin-bottom: 9px;
+    }
+
+    .lang-row::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #555;
+      flex-shrink: 0;
+    }
+
+    .lang-level {
+      font-size: 12px;
+      font-style: italic;
+      color: #888;
+      margin-left: 4px;
+    }
+
+    .edu-school {
+      font-size: 13px;
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+
+    .edu-dept {
+      font-size: 13px;
+      color: #333;
+      margin: 4px 0 3px;
+    }
+
+    .edu-years {
+      font-size: 12.5px;
+      color: #777;
+    }
+
+    /* ── RIGHT COLUMN ── */
+    .col-right {
+      padding: 32px 36px;
+    }
+
+    .right-section {
+      margin-bottom: 30px;
+    }
+
+    .about-text {
+      font-size: 13.5px;
+      line-height: 1.8;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv">
+
+    <!-- HEADER -->
+    <div class="cv-header">
+      <div class="photo-placeholder">
+        <img src="resimler/WhatsApp Image 2026-02-16 at 00.27.19.jpeg" alt="Oğuzhan Aktaş" /> 
+      </div>
+      <div class="cv-header-info">
+        <h1>Oğuzhan Aktaş</h1>
+        <div class="subtitle">Bilgisayar Mühendisliği</div>
+        <div class="cv-header-contacts">
+          <div class="contact">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+            oguzhanakts0@gmail.com
+          </div>
+          <div class="contact">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.39 21 3 13.61 3 4.5a1 1 0 011-1H8a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/></svg>
+            05388165026
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BODY -->
+    <div class="cv-body">
+
+      <!-- LEFT -->
+      <div class="col-left">
+
+        <div class="left-section">
+          <div class="section-title">Eğitim</div>
+          <hr class="section-divider" />
+          <div class="edu-school">Karabük Üniversitesi</div>
+          <div class="edu-dept">Bilgisayar Mühendisliği</div>
+          <div class="edu-years">2023-2028</div>
+        </div>
+
+        <div class="left-section">
+          <div class="section-title">Beceriler</div>
+          <hr class="section-divider" />
+          <ul class="bullet-list">
+            <li>Java</li>
+            <li>C</li>
+          </ul>
+        </div>
+
+        <div class="left-section">
+          <div class="section-title">Diller</div>
+          <hr class="section-divider" />
+          <div class="lang-row">İngilizce <span class="lang-level">B2 seviye</span></div>
+          <div class="lang-row">Almanca <span class="lang-level">A2 seviye</span></div>
+        </div>
+
+        <div class="left-section">
+          <div class="section-title">Hobiler</div>
+          <hr class="section-divider" />
+          <ul class="bullet-list">
+            <li>Yüzme</li>
+            <li>Futbol</li>
+            <li>Basketbol</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="col-right">
+        <div class="right-section">
+          <div class="section-title">Hakkımda</div>
+          <hr class="section-divider" />
+          <p class="about-text">
+            Karabük Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisiyim.
+            Mühendislik temelleri, algoritma mantığı ve nesne yönelimli
+            programlama konularında kendimi geliştirmeye odaklanmış durumdayım.
+            Akademik bilgilerimi pratik projelerle birleştirerek profesyonel
+            dünyaya adım atmayı ve yazılım geliştirme süreçlerinde aktif rol
+            alabileceğim bir staj/proje ortamına dahil olmayı hedefliyorum.
+            Disiplinli çalışma alışkanlığına ve hızlı öğrenme yeteneğine sahibim.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
